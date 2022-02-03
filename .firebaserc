@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-realtimedb-demo": {
+      "hosting": {
+        "angular-realtimedb-demo": [
+          "angular-realtimedb-demo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-realtimedb-demo"
+  }
+}

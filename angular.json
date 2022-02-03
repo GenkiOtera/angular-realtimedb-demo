@@ -107,6 +107,16 @@
           "options": {
             "browserTarget": "angular-realtimedb-demo:build"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-realtimedb-demo:build:production",
+            "firebaseProject": "angular-realtimedb-demo",
+            "firebaseHostingSite": "angular-realtimedb-demo"
+          }
         }
       }
     }
