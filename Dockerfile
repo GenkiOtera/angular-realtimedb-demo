@@ -6,6 +6,7 @@ RUN apt-get update
 RUN echo y | apt-get install git
 RUN npm install -g @angular/cli
 RUN npm install --save firebase
+RUN npm install -g firebase-tools
 
 COPY ./ ./
 
