@@ -4,12 +4,13 @@
 
 export const environment = {
   firebase: {
-    projectId: 'angular-realtimedb-demo',
-    appId: '1:1094065972674:web:ba70c43ceae5b3c968225b',
-    storageBucket: 'angular-realtimedb-demo.appspot.com',
-    apiKey: 'AIzaSyDwyIqqO-9hPpcE4MAUUFiAs6AXosCLLz0',
-    authDomain: 'angular-realtimedb-demo.firebaseapp.com',
-    messagingSenderId: '1094065972674',
+    apiKey: "AIzaSyDwyIqqO-9hPpcE4MAUUFiAs6AXosCLLz0",
+    authDomain: "angular-realtimedb-demo.firebaseapp.com",
+    databaseURL: "https://angular-realtimedb-demo-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "angular-realtimedb-demo",
+    storageBucket: "angular-realtimedb-demo.appspot.com",
+    messagingSenderId: "1094065972674",
+    appId: "1:1094065972674:web:b10104e2ad19077a68225b"
   },
   production: false
 };
