@@ -13,8 +13,11 @@ import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angula
     <div class="list-contents">
       <h1>Here is list</h1>
       <ul>
+        ~ key, name, category ~
         <li *ngFor="let list of lists | async">
-          {{ list | json }}
+          {{ list["key"] | json }}, 
+          {{ list["name"] | json }}, 
+          {{ list["category"] | json }}
         </li>
       </ul>
     </div>
